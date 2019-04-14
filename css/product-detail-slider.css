@@ -1,0 +1,68 @@
+.product-details-page .product-details-container { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-align-items: flex-start; -moz-align-items: flex-start; -ms-align-items: flex-start; align-items: flex-start; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0 0 10px 0; }
+.product-details-page .product-details-container .gallery { width: 80%; margin: 0 auto; position: relative; }
+.product-details-page .product-details-container .gallery .product-slider { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-align-items: flex-start; -moz-align-items: flex-start; -ms-align-items: flex-start; align-items: flex-start; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top { position: initial; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .product-tag { position: absolute; z-index: 2; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .product-tag.left-top { top: 0; left: 0; margin-bottom: 5px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .product-tag.left-bottom { bottom: 0; left: 0; margin-top: 5px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .product-tag.right-top { top: 0; right: 0; margin-bottom: 5px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .product-tag.right-bottom { bottom: 0; right: 0; margin-top: 5px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-slide { width: 100% !important; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-slide img { max-width: 100%; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-next, .product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-prev { width: 40px; height: 40px; background-image: none; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-next:before, .product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-prev:before { font-family: ProFont; font-size: 60px; color: #4b71fc; font-weight: 300; display: block; text-align: center; text-shadow: #fff 0 0 0.5px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-next { right: -40px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-next:before { content: "\f105"; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-prev { left: -40px; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-prev:before { content: "\f104"; }
+.product-details-page .product-details-container .gallery .product-slider .gallery-thumbs { display: none; }
+.product-details-page .product-details-container .mobile-thumbs { width: 100%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider.left .gallery-top { margin-left: 3%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider.right { -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider.right .gallery-top { margin-right: 3%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider.bottom { -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider.bottom .gallery-top { margin-bottom: 3%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs { display: block; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-top { -webkit-box-flex: 1 0 82%; -moz-box-flex: 1 0 82%; -webkit-flex: 1 0 82%; -ms-flex: 1 0 82%; flex: 1 0 82%; position: relative; width: 100%; border: 1px solid #e2e6eb; border-radius: 3px; background: #fff; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-top .swiper-slide img { max-width: 100%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-top .swiper-button-next { right: 10px; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-top .swiper-button-prev { left: 10px; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs { display: block; margin-bottom: 15px; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-slide { width: 100%; opacity: 0.4; cursor: pointer; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-slide-thumb-active { opacity: 1; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-slide img { border: 1px solid #e2e6eb; border-radius: 3px; max-width: 100%; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-next, .product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-prev { background: #fff; width: 100%; height: 20px; left: 0; right: 0; border: 1px solid #e2e6eb; border-radius: 3px; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-next:before, .product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-prev:before { font-family: ProFont; font-size: 20px; color: #4b71fc; font-weight: 300; display: block; text-align: center; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-next.swiper-button-disabled, .product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-prev.swiper-button-disabled { pointer-events: initial; opacity: 0; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-next { bottom: 0; top: initial; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-next:before { content: "\f107"; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-prev { top: 22px; }
+.product-details-page .product-details-container .mobile-thumbs .product-slider .gallery-thumbs .swiper-button-prev:before { content: "\f106"; }
+@media only screen and (min-width: 768px) {
+  .product-details-page .product-details-container { -webkit-justify-content: space-between; -moz-justify-content: space-between; -ms-justify-content: space-between; justify-content: space-between; -ms-flex-pack: space-between; padding: 0 10px 30px; }
+  .product-details-page .product-details-container .gallery { max-width: calc(50% - 15px); width: 100%; margin-left: 0; }
+  .product-details-page .product-details-container .gallery .product-slider.left .gallery-top { margin-left: 3%; }
+  .product-details-page .product-details-container .gallery .product-slider.right { -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+  .product-details-page .product-details-container .gallery .product-slider.right .gallery-top { margin-right: 3%; }
+  .product-details-page .product-details-container .gallery .product-slider.bottom { -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+  .product-details-page .product-details-container .gallery .product-slider.bottom .gallery-top { margin-bottom: 3%; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-top { -webkit-box-flex: 1 0 82%; -moz-box-flex: 1 0 82%; -webkit-flex: 1 0 82%; -ms-flex: 1 0 82%; flex: 1 0 82%; position: relative; width: 100%; background: #fff; border: 1px solid #e2e6eb; border-radius: 3px; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-slide img { max-width: 100%; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-next { right: 10px; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-top .swiper-button-prev { left: 10px; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs { display: block; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-slide { width: 100%; opacity: 0.4; cursor: pointer; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-slide-thumb-active { opacity: 1; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-slide img { border: 1px solid #e2e6eb; border-radius: 3px; max-width: 100%; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-next, .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-prev { background: #fff; width: 100%; height: 20px; left: 0; right: 0; border: 1px solid #e2e6eb; border-radius: 3px; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-next:before, .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-prev:before { font-family: ProFont; font-size: 20px; color: #4b71fc; font-weight: 300; display: block; text-align: center; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-next.swiper-button-disabled, .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-prev.swiper-button-disabled { pointer-events: initial; opacity: 0; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-next { bottom: 0; top: initial; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-next:before { content: "\f107"; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-prev { top: 22px; }
+  .product-details-page .product-details-container .gallery .product-slider .gallery-thumbs .swiper-button-prev:before { content: "\f106"; }
+}
+@font-face { font-family: "ProFont"; font-weight: 300; font-style: normal; src: url("../webfonts/fa-light-300.eot"); src: url("../webfonts/fa-light-300.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-light-300.woff2") format("woff2"), url("../webfonts/fa-light-300.woff2") format("woff"), url("../webfonts/fa-light-300.ttf") format("truetype"), url("../webfonts/fa-light-300.svg#fontawesomeregular") format("svg"); }
+@font-face { font-family: "ProFont"; font-weight: 400; font-style: normal; src: url("../webfonts/fa-regular-400.eot"); src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff2") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesomeregular") format("svg"); }
+@font-face { font-family: "ProFont"; font-weight: 900; font-style: normal; src: url("../webfonts/fa-solid-900.eot"); src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff2") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesomeregular") format("svg"); }
+@font-face { font-family: "FaprikaBrand"; font-weight: 300; font-style: normal; src: url("../webfonts/fa-brands-400.eot"); src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff2") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesomeregular") format("svg"); }
