@@ -13,6 +13,7 @@
             <div class="product-slider left"><!--Thumbs options : left right bottom-->
                 <div class="swiper-master gallery-thumbs">
                     <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-video"><img itemprop="image" src="assets/img/demo.jpg" /></div>
                         <div class="swiper-slide"><img itemprop="image" src="assets/img/demo.jpg" /></div>
                         <div class="swiper-slide"><img itemprop="image" src="assets/img/demo.jpg" /></div>
                         <div class="swiper-slide"><img itemprop="image" src="assets/img/demo.jpg" /></div>
@@ -35,6 +36,11 @@
                         <div class="product-tag right-bottom"><img src="#" alt="" title="" /></div>
                     -->
                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video id="swiper-video" poster="assets/img/demo.jpg" preload="auto" loop >
+                                <source src="assets/video/demo.mp4" type="video/mp4" width="100%">
+                            </video>
+                        </div>
                         <div class="swiper-slide"><a data-fancybox="gallery" href="assets/img/demo.jpg"><img src="assets/img/demo.jpg" /></a></div>
                         <div class="swiper-slide"><a data-fancybox="gallery" href="assets/img/demo.jpg"><img src="assets/img/demo.jpg" /></a></div>
                         <div class="swiper-slide"><a data-fancybox="gallery" href="assets/img/demo.jpg"><img src="assets/img/demo.jpg" /></a></div>
@@ -60,7 +66,7 @@
             var height = $('.gallery-top').outerHeight();
             $('.gallery-thumbs').css('height', height);
             var galleryThumbs = new Swiper('.gallery-thumbs', {
-                direction: 'vertical', // result class "bottom" if "horizontal" do.
+                direction: 'vertical', // result class "bottom" if "horizontal" do. Height Reset
                 slidesPerView: 5,
                 watchSlidesProgress: true,
                 navigation: {
@@ -76,8 +82,37 @@
                 thumbs: {
                     swiper: galleryThumbs
                 },
+
+                // Video if
+                initialSlide: 1,
+                on: {
+                    slideChange: function () {
+                        if ($('.swiper-slide-active video').length > 0) {
+                            $('video').get(0).pause()
+                        } else {
+                            $('video').get(0).play();
+                        }
+                    }
+                }
             });
         });
+
+        //Video Fullscreen
+        var myVideo = document.getElementById('swiper-video');
+        myVideo.addEventListener('click', function () {
+            if (myVideo.requestFullscreen) {
+                myVideo.requestFullscreen();
+            }
+            else if (myVideo.msRequestFullscreen) {
+                myVideo.msRequestFullscreen();
+            }
+            else if (myVideo.mozRequestFullScreen) {
+                myVideo.mozRequestFullScreen();
+            }
+            else if (myVideo.webkitRequestFullScreen) {
+                myVideo.webkitRequestFullScreen();
+            }
+        }, false);
     </script>
 </body>
 </html>
